@@ -1,0 +1,204 @@
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #456;
+    background-color: #4a4;
+    min-height: 460px;
+    min-width: 500px;
+    z-index: -1000;
+}
+
+.button {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    font-weight: bold;
+    color: #345;
+    padding: 6px 18px;
+    border: 1px solid #345;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.button:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.card {
+    display: inline-block;
+    height: 100px;
+    width: 72px;
+    background-image: url(../img/cards.png);
+    background-size: 648px 500px;
+    background-repeat: no-repeat;
+    background-position: 0px -400px;
+    position: absolute;
+}
+
+.trump {
+    behavior: url(-ms-transform.htc);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    z-index: -40;
+}
+
+.your {
+    cursor: pointer;
+    transition: margin-top .2s ease-in-out;
+}
+.your:hover {
+    margin-top: -10px;
+}
+
+#control {
+    position: absolute;
+    padding: 35px 50px;
+    height: 20px;
+}
+
+#pass {
+    float: left;
+    margin-right: 5px;
+    display: none;
+}
+
+#take {
+    float: left;
+    display: none;
+}
+
+
+.a {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.b {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #cde;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.c {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #345;
+    text-align: center;
+    display: block;
+    padding: 16px;
+    text-align: center;
+}
+
+.btt {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    font-weight: bold;
+    color: #345;
+    padding: 6px 18px;
+    border: 1px solid #345;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-left: 10px;
+}
+.btt:hover {
+    border-color: #0094ff;
+    color: #0094ff;
+}
+
+
+.kt {
+    display: block;
+    padding: 5px 16px 20px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------- Changes for Retina Display --------------------------------------------*/
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    
+    .card {
+        background-image: url(../img/cards@2x.png);
+    }
+    
+    
+    
+}
