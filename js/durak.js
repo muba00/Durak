@@ -1,6 +1,6 @@
 // Written by Mubariz Hajimuradov
-// (c) all rights reserved
-// Contact: mubarizhajimuradov@yahoo.com, muba@mysemle.com
+// (c) 2013
+// Contact: mubarizhajimuradov@gmail.com
 
 
 w = window;
